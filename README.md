@@ -6,19 +6,12 @@ Explained in detail [here](https://www.ibm.com/developerworks/cloud/library/cl-d
 
 ### Instructions to run
 
-Start a blockchain node server,
-
 ```sh
->>> python node_server.py
+$ docker-compose up -d
 ```
 
-Run our application,
 
-```sh
->>> python run_app.py
-```
-
-The application should be up and running at [http://localhost:5000](http://localhost:5000).
+The application should be up and running at [http://localhost:80](http://localhost:80).
 
 Here are a few screenshots
 
